@@ -18,6 +18,7 @@ gene presence/absence.csv 형식
 
 #### Scoary
 scoary.py -g <gene_presence_absence.csv> -t <traits.csv>
+<br/>
 해당 phenotype이 있는 include genome들과 phenotype이 없는 exclude genome들에서,
 각각의 gene이 얼마나 등장하는지, max/min값은 어떤지 정보들을 csv로 return
 <br/><br/>
@@ -27,6 +28,7 @@ scoary.py -g <gene_presence_absence.csv> -t <traits.csv>
 
 #### Streptococcus Thermophilus 6 genome///ST.non thermo 20 genome
 N00002\~N00006,N00139(S.thermo representative)///N00000,N00001,N000162\~N000179
+<br/>
 k = 10, k = 13, k = 16, k = 19, k = 22, k = 25, k = 28로 k-mer를 잡고 fna와 cds_fna에 대해 각각 실행
 <br/><br/>
 
