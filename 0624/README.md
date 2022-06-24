@@ -39,20 +39,20 @@ k = 10, k = 13, k = 16, k = 19, k = 22, k = 25, k = 28로 k-mer를 잡고 fna와
 fna k=10 : no signiture   
 fna k=13 : no signiture   
 fna k=16 : score>=0.9 96seq, whole 384seq   
-fna k=19 : score>=0.9 144seq, whole 576seq
-fna k=22 : score>=0.9 71seq, whole 276seq
-fna k=25 : score>=0.9 56seq, whole 224seq
-fna k=28 : score>=0.9 58seq, whole 203seq
-
-cds k=10 : no signiture
-cds k=13 : no signiture
-cds k=16 : score>=0.9 88seq, whole 384seq
-cds k=19 : score>=0.9 111seq, whole 496seq
-cds k=22 : score>=0.9 69seq, whole 286seq
-cds k=25 : score>=0.9 67seq, whole 256seq
-cds k=28 : score>=0.9 64seq, whole 237seq
+fna k=19 : score>=0.9 144seq, whole 576seq   
+fna k=22 : score>=0.9 71seq, whole 276seq   
+fna k=25 : score>=0.9 56seq, whole 224seq   
+fna k=28 : score>=0.9 58seq, whole 203seq   
+   
+cds k=10 : no signiture   
+cds k=13 : no signiture   
+cds k=16 : score>=0.9 88seq, whole 384seq    
+cds k=19 : score>=0.9 111seq, whole 496seq   
+cds k=22 : score>=0.9 69seq, whole 286seq   
+cds k=25 : score>=0.9 67seq, whole 256seq   
+cds k=28 : score>=0.9 64seq, whole 237seq   
 <br/><br/>
 
 #### length, score 그래프 그리기
-파이썬으로 각 seq contig에 대해 length, score 추출 후 csv 파일로 만들고 excel에서 그래프 만들기
+파이썬으로 각 seq contig에 대해 length, score 추출 후 csv 파일로 만들고 excel에서 그래프 만들기   
 나중에는 R로 할 예정. 지금은 R을 쓸줄 모르므로 엑셀로 진행
